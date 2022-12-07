@@ -23,6 +23,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            firebaseAppDistribution{
+                appId="1:332734287389:android:e065bdea2b995a4a4280f4"
+                releaseNotes="Testing distribution from gradle file"
+//                testers="juan.gomez01@gmail.com"
+//                groupsFile="path/to/groups.txt"
+            }
+
         }
 
         debug {
